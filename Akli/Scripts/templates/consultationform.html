@@ -1,0 +1,112 @@
+{%extends 'base.html' %}
+
+{% block head  %} 
+<title>Projet WS</title>
+<style>
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color:  lightskyblue;
+    }
+    div.jumbotron{
+        background-color:  lightskyblue;
+
+    }
+</style>
+{% endblock %}
+
+{% block body  %} 
+<div class="container">
+    <div class="jumbotron text-white text-center">
+        <h1 class="display-4">Veuillez remplir les champs ci-dessous avec vos informations personnelles:</h1>
+            <form action="/consultation" method="POST">
+                <div class="form-group row">
+                    <div class="col-6">
+                        <input
+                            type="text"
+                            required
+                            placeholder="Prenom"
+                            class="form-control"
+                            id="prenom"
+                            name="prenom"
+                        />
+                    </div>
+                    <div class="col-6">
+                        <input
+                            type="text"
+                            required
+                            placeholder="Nom"
+                            class="form-control"
+                            id="nom"
+                            name="nom"
+                        />
+                    </div>
+                </div>
+                <div class="from-group row">
+                    <div class="col-2">
+                        <input
+                            type="text"
+                            required
+                            placeholder="Sexe"
+                            class="form-control"
+                            id="sexe"
+                            name="sexe"
+                        />
+                    </div>
+                    <div class="col-2">
+                        <input
+                            type="text"
+                            required
+                            placeholder="Age"
+                            class="form-control"
+                            id="age"
+                            name="age"
+                        />
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <input
+                                type="text"
+                                required
+                                placeholder="Situation Familiale"
+                                class="form-control"
+                                id="situation _familiale"
+                                name="situation_familiale"
+                            />
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="from-group row">
+                <div class="col-12">
+                    <input
+                        type="text"
+                        required
+                        placeholder="Symptomes"
+                        class="form-control"
+                        id="symptomes"
+                        name="symptomes"
+                    />
+                </div>
+                </div>
+
+              
+                
+               
+            </form>
+            <div class="col-12 text-center">
+                <input type="submit" class="btn btn-primary mt-5" value="Submit" />
+            </div>
+
+                
+        
+       
+  </div>
+</div>
+
+
+{% endblock %}

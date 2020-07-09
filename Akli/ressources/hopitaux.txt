@@ -1,0 +1,440 @@
+Hôpital Ibn Sina d'Adrar 
+Hôpital Mohamed Hachemi de Timimoun 
+Hôpital de Reggane 
+Hôpital Noureddine Sahraoui d'Aoulef 
+Hôpital de Bordj Badji Mokhtar 
+Hôpital de Zaouiet Kounta 
+Hôpital d'Aougrout 
+Pôle hospitalier de Tililane
+Hôpital de Tililane 
+Hôpital gériatrique 
+Hôpital psychiatrique 
+Centre anti-cancer 
+
+Hôpital de Ouled Mohamed 
+Hôpital de Chorfa 
+Hôpital Zighoud Youcef Ténès 
+Hôpital ancien de Ténès 
+Hôpital de Sobha 
+Hôpital de Chettia 
+Hôpital des sœurs Bedj 
+Hôpital d'Aïn Merane
+
+Hôpital Hmida Ben Adjila de Laghouat 
+Hôpital d'Aflou
+
+Hôpital Mohamed Boudiaf d'Oum El Bouaghi 
+Hôpital ancien d'Oum El Bouaghi 
+Hôpital Zerdani Salah d'Aïn Beïda 
+Hôpital de Meskiana 
+Hôpital de Aïn M’lila 
+Hôpital de Aïn Fakroun
+
+Hôpital Touhami Benflis de Batna 
+Hôpital Mère et enfant Meriem Bouatoura Batna 
+Hôpital Sanatorium + ORL 
+Centre Anti-cancer de Batna 
+Hôpital d'Arris  
+Hôpital d'Arris  
+Hôpital de Mohamed Boudiaf de Barika 
+Hôpital de Amirat Slimane de Barika 
+Hôpital de Aïn Touta 
+Hôpital de Ali Nemer de Mérouana 
+Hôpital de Ziza Massika de Mérouana 
+Hôpital de N’Gaous 
+Hôpital d'El Madher
+
+Hôpital Frantz Fanon
+Hôpital Khelil Amrane
+Hôpital Targa Ouzemmour
+EPH Benmerad El Mekki
+EPH Akloul Ali
+EPH Rachid Belhocine
+Hôpital Mohamed Arab Hannoz
+EHS en MPR de Fenaïa Ilmaten 
+EPH d'Aokas
+
+Hôpital Bachir Bennacer de Biskra 
+Hôpital Dr Saadane de Biskra 
+Hôpital de Ouled Djellal 
+Hôpital de Tolga
+
+
+
+EPH Boudjemaa Tourabi
+Hôpital de Taghit 
+Hôpital de Abadla 
+Hôpital de Béni Abbès 
+Hôpital de Mohamed Boudiaf 
+
+
+
+CHU de Blida 
+EPH Faubourg Blida 
+EPH de Boufarik 
+EPH de Meftah 
+EPH d'El Affroun 
+EHS Psychiatrique de Blida 
+Centre anti-cancer de Blida
+
+
+
+Hôpital de Bouira 
+Hôpital de M'Chedellah 
+Hôpital de Lakhdaria 
+Hôpital de Sour El Ghozlane 
+Hôpital de Aïn Bessam
+
+
+
+Hôpital de Tamanrasset 
+Hôpital de Aïn Salah
+
+
+
+Hôpital Alia Salah de Tébessa 
+Hôpital Bouguerra Boulares de Tébessa 
+Hôpital de Morst 
+Hôpital d'El Aouinet 
+Hôpital Tedjini Haddam de Bir El Ater 
+Hôpital de Chréa 
+Hôpital de Ouenza
+
+
+
+CHU Tlemcen 
+Hôpital de Nedroma 
+Hôpital de Maghnia 
+Hôpital de Ghazaouet 
+Hôpital de Sebdou 
+Hôpital de Remchi 
+Hôpital de Mère-Enfants de Tlemcen
+
+
+
+Hôpital EPH Youçef Damerdji 
+Hôpital de Frenda 
+Hôpital de Mahdia 
+Hôpital de Sougueur 
+Hôpital de Ksar Chellala 
+Hôpital EHS Pédiatrie Aourai Zahra
+Hôpital Mère-Enfant
+Hôpital de Psychiatrique Hamdani Adda
+Hôpital Bouabdelli Bouabdellah
+Hôpital Centre-Anti-Cancer
+
+
+
+Centre hospitalier universitaire de Tizi Ouzou 
+EHS en Gynécologie-Obstétrique Sebihi Tassadit de Tizi-Ouzou 
+EHS en Psychiatrie Oued Aïssi 
+EHS en Chirurgie Cardiaque &#34;Petit Omar&#34; de Draâ Ben Khedda 
+Centre anti-cancer Draâ Ben Khedda 
+EPH de Larbaa Nath Irathen 
+EPH de Tigzirt 
+EPH de Draa El Mizan 
+EPH de Boghni 
+EPH de Azazga 
+EPH de Azeffoun 
+EPH de Aïn El Hammam
+
+
+
+CHU Mustapha Pacha d'Alger 
+CHU Lamine Debaghine de Bab El Oued 
+CHU Nafissa Hamoud de Hussein Dey 
+CHU Issad Hassani de Beni Messous 
+EHS en Oncologie Pierre et Marie Curie 
+Clinique chirurgicale Debussy 
+EHS des brûlés Pierre et Claudine Chaulet - Pasteur Alger 
+EHS en Cardiologie Maouche Mohand Amokrane 
+EHS en chirurgie cardiaque Mohamed Abderrahmani 
+EHS Mere-enfant Hassen Badi d'El Harrach 
+EHS en UMC Selim Zmirli d'El Harrach 
+EHS en Psychiatrie Drid Hocine de Kouba 
+EHS en Psychiatrie Mahfoud Boucebci de Chéraga 
+EHS en MPR d'Azur Plage 
+EHS en Appareil Locomoteur Pr Abdelkader Boukhroufa de Ben Aknoun 
+EHS en MPR de Tixéraïne 
+EHS en Infectiologie El Hadi Flici 
+EHS en Neurologie Ali Aït Idir 
+EHS Gastrologie Djillali Rahmoune 
+EPH Bachir Mentouri de Kouba 
+EPH Djillali Belkhenchir d'El Biar 
+EPH Belkacemi Tayeb de Zéralda 
+EPH de Rouiba 
+EPH de Bologhine 
+EPH de Aïn Taya 
+EPH Djillali Bounaâma de Douera
+
+
+
+Centre anti cancer de Djelfa 
+Hôpital de Djelfa 
+Hôpital de Aïn Oussara 
+Hôpital de Messaad 
+Hôpital de Hassi Bahbah 
+Hôpital ophtalmologique de Djelfa 
+Hôpital El Idrissia
+
+
+
+Hôpital de Jijel 
+Hôpital d'El Milia 
+Hôpital de Taher
+
+
+
+Hôpital de Sétif 
+Hôpital d'El Eulma 
+Nouveau Hôpital d’El Eulma 
+Hôpital de Bougaa 
+Hôpital de Aïn El Kebira 
+Hôpital de Aïn Oulmène 
+Hôpital de Béni Ourtilène 
+Hôpital de Aïn Abassa 
+Hôpital de Ras El Ma 
+Hôpital de Béni Aziz
+
+
+
+Hôpital Ahmed Medghri 
+Hôpital Hamdane Bakhta
+
+
+
+Hôpital de Skikda 
+Hôpital d'El Harrouch 
+Hôpital de Collo 
+Hôpital de Azzaba 
+Hôpital de Tamalous
+
+
+
+CHU Dr Hassani Abdelkader 
+Hôpital Dahmani Slimane 
+Hôpital Hadid Aissa 
+Hôpital Marok Abdelkader 
+Hôpital Yamloul Djaafar 
+Hôpital de Sidi Bel Abbès
+
+
+
+CHU de Ibn Rochd 
+CHU de Ibn sina 
+CHU Dorban 
+CHU d'El Bouni 
+CHU Sainte Thérèse 
+Hôpital anti cancer Annaba 
+Hôpital d'El Hadjar 
+Hôpital de Chetaïbi 
+Hôpital d'El Berda 
+Hôpital de Seraïdi 
+Hôpital Er Razi
+
+
+
+Hôpital Hakim El Okbi de Guelma 
+Hôpital Ibn Zohour de Guelma 
+Hôpital de Aïn Larbi 
+Hôpital de Oued Zenati 
+Hôpital de Bouchegouf
+
+
+
+Hôpital Ibn Badis de Constantine 
+Hôpital El Bir de Constantine 
+Hôpital Mohamed Boudiaf d'El Khroub 
+Hôpital Ali Mendjeli d'El Khroub 
+Hôpital de Zighoud Youcef 
+Hôpital d'El Riad 
+Hôpital de Daksi 
+Hôpital de Djebel Ouahch 
+Hôpital de Sidi Mabrouk 
+Hôpital pédiatrique de la cité Mansourah
+
+
+
+Hôpital de Médéa 
+Hôpital de Berrouaguia 
+Hôpital de Tablat 
+Hôpital de Aïn Boussif 
+Hôpital de Ksar El Boukhari 
+Hôpital de Béni Slimane 
+Hôpital de Chellalet El Adhaoura
+
+
+
+Hôpital de Mostaganem 
+CHU de Mostaganem Kharouba 
+Hôpital de Aïn Tedlès 
+Hôpital de Sidi Ali 
+Hôpital de Mesra 
+Hôpital de Bouguirat 
+Hôpital d’Aachaacha 
+Hôpital Mère-Enfant Lalla Kheira 
+Hôpital de psychiatrie Medjdoub Youcef
+
+
+
+Hôpital de M'Sila 
+Hôpital de Boussaada 
+Hôpital de Sidi Aïssa 
+Hôpital de Aïn El Maleh
+
+
+
+Hôpital de Meslem Tayeb 
+Hôpital de Issaad Khaled 
+Hôpital de Tighennif 
+Hôpital de Sig 
+Hôpital de Mohammadia 
+Hôpital de Ghriss 
+Hôpital de Bou Hanifia 
+Hôpital de Mascara 
+Hôpital de Zahana 
+Hôpital de Oued Al Abtal 
+Hôpital de Aouf 
+Hôpital de Mohammadia
+
+
+
+Hôpital de Ouargla 
+Hôpital de Touggourt 
+Hôpital de Hassi Messaoud 
+Hôpital de Taïbet
+
+
+
+Centre hospitalier et universitaire Benaouda Benzerdjeb 
+EHU du er novembre  
+Hôpital de Madjbeur Tami de Aïn El-Turk 
+Hôpital de El-Mohgoun 
+Hôpital Akid Othmane de Aïn El-Turk 
+Hôpital Hammou Boutlelis 
+Hôpital Emir Abdelkader 
+Hôpital Boukhroufa Abdelkader 
+Hôpital de Sidi Chahmi 
+Hôpital Benyahia Zohra 
+Hôpital Tazi Fatima 
+Hôpital Les Pins 
+Hôpital Nouar Fadéla 
+Hôpital Hadj Abed Atika 
+Hôpital d’Ouled Tlélat 
+Hôpital de Gydel
+
+
+
+Hôpital d'El Bayadh 
+Hôpital d'El Abiodh Sidi Cheikh 
+Hôpital de Bougtob
+
+
+
+Hôpital d'Illizi 
+Hôpital de Djanet
+
+
+
+Hôpital de Bordj Bou Arreridj 
+Hôpital de Medjana 
+Hôpital de Ras El Oued
+
+
+
+Hôpital de Thénia
+Hôpital de Bordj Ménaïel
+Hôpital Mohamed Boudaoud de Dellys
+
+
+
+Hôpital d'El Tarf 
+Hôpital d'El Kala 
+Hôpital de Bouhadjar
+
+
+
+Hôpital de Tindouf
+
+
+
+Hôpital de Tissemsilt 
+Hôpital de Theniet El Had 
+Hôpital de Bordj bou Naama
+
+
+
+Hôpital Bachir Bennacer 
+Hôpital d'El Maghaïer 
+Hôpital de Djamaâ
+
+
+
+Hôpital Ali Boushaba 
+Hôpital nouveau 
+Hôpital de Chechar 
+Hôpital de Kaïs
+
+
+
+Hôpital Houari Boumediène Sédrata 
+Hôpital Ibn Rochd Souk-Ahras 
+Hôpital ancien Souk-Ahras
+
+
+
+Hôpital Lakhdar Bouchama 
+Hôpital Djellaloui Mohamed spécialisé en psychiatrie 
+Hôpital de neuro-chirurgie Cherchell 
+Hôpital Dr Yahia Fares 
+Hôpital Koubaili Mohamed Erabat 
+Hôpital de Gouraïa
+
+
+
+Hôpital Mohamed Medahi 
+Hôpital de Oued Athmania 
+Hôpital des frères Maghlaoui 
+Hôpital des frères Tobal 
+Hôpital de Chelghoum Laïd 
+Hôpital de Ferdjioua
+
+
+
+Hôpital Hamou Makour 
+Hôpital de Khemis Miliana 
+Hôpital de Miliana 
+Hôpital d'El Attaf
+
+
+
+Hôpital de Naama 
+Hôpital de Méchria 
+Hôpital de Aïn Sefra
+
+
+
+Hôpital Docteur Benzerdjeb 
+Hôpital Ahmed Medeghri 
+Hôpital de Béni Saf 
+Hôpital de Hammam Bouhadjar 
+Hôpital de Aïn Témouchent 
+Hôpital El amria
+
+
+
+Hôpital Brahim Tirichine 
+Hôpital de Metlili 
+Hôpital Gueddi Bakir 
+Hôpital d'El Ménéa 
+Hôpital de Guerrara
+
+
+
+Hôpital Mohamed Boudiaf 
+Hôpital de Mazouna 
+Hôpital de Oued Rhiou 
+Hôpital de Yellel 
+Hôpital de Mendes 
+Hôpital d'Ami Moussa 
+Hôpital de Zemmora 

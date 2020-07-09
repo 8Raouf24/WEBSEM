@@ -1,0 +1,205 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sararaouf.org/onto.owl> a ns1:Ontology .
+
+<http://sararaouf.org/onto.owl#Age> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Humain> ;
+    rdfs:range xsd:integer .
+
+<http://sararaouf.org/onto.owl#DureeDepuisApparitionDesSymptomes> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:integer .
+
+<http://sararaouf.org/onto.owl#DureeDepuisDernierVoyage> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:integer .
+
+<http://sararaouf.org/onto.owl#Nom> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Humain> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#PCDomicile> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Orientation> .
+
+<http://sararaouf.org/onto.owl#Poids> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:decimal .
+
+<http://sararaouf.org/onto.owl#Prenom> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Humain> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#Sexe> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Humain> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#SituationFamiliale> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#SuspectCovid> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing ;
+    ns1:equivalentClass [ a ns1:Class ;
+            ns1:intersectionOf ( <http://sararaouf.org/onto.owl#Patient> [ a ns1:Restriction ;
+                        ns1:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                        ns1:onClass <http://sararaouf.org/onto.owl#SymptomesCovid> ;
+                        ns1:onProperty <http://sararaouf.org/onto.owl#aSymptomes> ] ) ] .
+
+<http://sararaouf.org/onto.owl#Taille> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:decimal .
+
+<http://sararaouf.org/onto.owl#Traitement> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#TrancheAge> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#communeDe> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Daira> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Wilaya> .
+
+<http://sararaouf.org/onto.owl#dateRDV> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#RDV> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#estConcerneParOrientation> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Orientation> .
+
+<http://sararaouf.org/onto.owl#estLocalise> a ns1:ObjectProperty ;
+    rdfs:domain ns1:Thing ;
+    rdfs:range <http://sararaouf.org/onto.owl#Localisation> .
+
+<http://sararaouf.org/onto.owl#estMaladeDe> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range <http://sararaouf.org/onto.owl#MaladieChronique> .
+
+<http://sararaouf.org/onto.owl#estRedirigeVersHopital> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Hopital> .
+
+<http://sararaouf.org/onto.owl#estSpecialise> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Medecin> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Specialite> .
+
+<http://sararaouf.org/onto.owl#idWilaya> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Wilaya> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#medecinConcerne> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Fiche> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Medecin> .
+
+<http://sararaouf.org/onto.owl#medecinID> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Medecin> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomDaira> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Daira> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomHopital> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Hopital> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomMaladie> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#MaladieChronique> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomOrientation> a ns1:DatatypeProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Orientation> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomSpecialite> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Specialite> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomSymptomes> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Symptomes> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#nomWilaya> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Wilaya> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#patientConcerne> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Fiche> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Patient> .
+
+<http://sararaouf.org/onto.owl#patientID> a ns1:DatatypeProperty,
+        ns1:FunctionalProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range xsd:string .
+
+<http://sararaouf.org/onto.owl#prescritOrientation> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Medecin> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Orientation> .
+
+<http://sararaouf.org/onto.owl#RDV> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Orientation> .
+
+<http://sararaouf.org/onto.owl#SymptomesCovid> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Symptomes> .
+
+<http://sararaouf.org/onto.owl#aSymptomes> a ns1:ObjectProperty ;
+    rdfs:domain <http://sararaouf.org/onto.owl#Patient> ;
+    rdfs:range <http://sararaouf.org/onto.owl#Symptomes> .
+
+<http://sararaouf.org/onto.owl#Fiche> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Hopital> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Daira> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Localisation> .
+
+<http://sararaouf.org/onto.owl#Localisation> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#MaladieChronique> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Specialite> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Symptomes> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Wilaya> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Localisation> .
+
+<http://sararaouf.org/onto.owl#Medecin> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Humain> .
+
+<http://sararaouf.org/onto.owl#Humain> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Orientation> a ns1:Class ;
+    rdfs:subClassOf ns1:Thing .
+
+<http://sararaouf.org/onto.owl#Patient> a ns1:Class ;
+    rdfs:subClassOf <http://sararaouf.org/onto.owl#Humain> .
+
+[] a ns1:AllDisjointClasses ;
+    ns1:members ( <http://sararaouf.org/onto.owl#Daira> <http://sararaouf.org/onto.owl#Wilaya> <http://sararaouf.org/onto.owl#Specialite> <http://sararaouf.org/onto.owl#Symptomes> <http://sararaouf.org/onto.owl#MaladieChronique> <http://sararaouf.org/onto.owl#Patient> <http://sararaouf.org/onto.owl#Medecin> <http://sararaouf.org/onto.owl#Orientation> ) .
+

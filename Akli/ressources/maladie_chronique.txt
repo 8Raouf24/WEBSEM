@@ -1,0 +1,142 @@
+Angor/angine de poitrine
+Antécédent d’infarctus du myocarde
+Antécédent de phlébite ou d’embolie pulmonaire
+Artérite/artériopathie oblitérante des membres inférieurs
+Arythmie cardiaque par fibrillation auriculaire
+Cardiopathie congénitale
+Hypercholestérolémie
+Hypertension artérielle
+Hypertension artérielle pulmonaire
+Insuffisance cardiaque
+Insuffisance veineuse chronique
+Maladie de Kawasaki
+Syndrome de  Marfan
+Trouble de conduction (Pace Maker)
+Troubles du rythme cardiaque
+Valvulopathie, Remplacement valvulaire
+Autre maladie cardiaque ou vasculaire
+Cancer de l’endomètre/du corps de l’utérus
+Cancer de l’estomac
+Cancer de l’œsophage
+Cancer de l’ovaire
+Cancer de la peau de type Carcinome baso-cellulaire
+Cancer de la peau de type Carcinome spinocellulaire
+Cancer de la prostate
+Cancer de la thyroïde
+Cancer de la vésicule biliaire
+Cancer de la vessie
+Cancer des os
+Cancer des testicules
+Cancer du cerveau
+Cancer du col de l’utérus
+Cancer du colon
+Cancer du foie
+Cancer du pancréas
+Cancer du poumon, des bronches, de la plèvre
+Cancer du rectum
+Cancer du rein
+Cancer du sein
+Cancer ORL (lèvre, bouche, pharynx, larynx...)
+Mélanome
+Autre cancer
+Acromégalie
+Adénome hypophysaire
+Cancer de la thyroïde
+Diabète
+Diabète insipide
+Hyperaldostéronisme primaire 
+Hyperprolactinémie
+Hypothyroïdie
+Insuffisance pancréatique (pancréatite chronique)
+Maladie d’Addison
+Maladie d'Addision (insuffisance surrénalienne)
+Maladie de Basedow
+Mucoviscidose
+Obésité (si Indice de Masse Corporelle>30)
+Phéochromocytome
+Syndrome de Cushing
+Thyroïdite d’Hashimoto
+Autre hyperthyroïdie
+Autre maladie endocrinienne
+Apnée du sommeil
+Asthme
+Bronchite chronique, broncho pneumopathie chronique obstructive (BPCO), emphysème 
+Cancer du poumon, des bronches, de la plèvre
+Cancer ORL (lèvre, bouche, pharynx, larynx...)
+Dilatation des bronches
+Fibrose pulmonaire
+Mucoviscidose
+Otospongiose
+Pneumopathie interstitielle (fibrose idiopathique, pneumonie d'hypersensibilité)
+Polypose naso-sinusiennes
+Rhinite chronique
+Sinusite chronique
+Trouble stomatologique ou maxillofacial (SADAM)
+Vertiges (Maladie de Menière, vertige paroxystique positionnel bénin) 
+Autre maladie ORL ou respiratoire
+Amyotrophie spinale proximale
+Arthropathies microcristallines (goutte, chondrocalcinose)
+Arthrose
+Cancer des os
+Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)
+Chorée de Huntington
+Fibromyalgie
+Le syndrome de Gilbert
+Lombalgie chronique (douleur du bas du dos, hernie discale lombaire, sciatique)
+Maladie de Paget
+Maladie de Raynaud
+Maladie de Still de l'adulte
+Myasthénie
+Ostéoporose
+Polyarthrite rhumatoïde
+Rhumatisme psoriasique
+Scoliose
+Spondyloarthrite axiale (anciennement spondylarthrite ankylosante)
+Syndrome de fatigue chronique
+Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)
+Syndromes canalaires (Syndrome du canal carpien, Syndrome de la loge de Guyon…)
+Syndromes d’Ehlers Danlos
+Syndrome de Marfan
+Tendinites chroniques (périarthrite, épicondylite, capsulite...)
+Autre maladie rhumatologique
+Addictions (alcool, jeux, autres drogues...)
+Autisme
+Dépression
+Psychose chronique (schizophrénie...)
+Syndrome de stress post traumatique
+Trouble bipolaire, maladie maniaco-dépressive
+Trouble de la personnalité 
+Trouble déficit d'attention/hyperactivité (TDAH)
+Trouble du comportement alimentaire (anorexie, boulimie…)
+Troubles anxieux
+Troubles obsessionnels compulsifs : TOC 
+Autre maladie psychiatrique
+Acné
+Cancer de la peau de type Carcinome baso-cellulaire
+Cancer de la peau de type Carcinome spinocellulaire
+Dermatite séborrhéique
+Dermatose bulleuse chronique
+Eczéma
+Epidermolyse bulleuse
+Herpes
+Maladie de Verneuil / hidradénite suppurée
+Mélanome
+Pelade
+Psoriasis
+Rosacée
+Sclérodermie
+Ulcère de jambe
+Urticaire
+Vitiligo
+Zona
+Autre maladie de la peau
+Cataracte
+Décollement de rétine ou décollement du vitré
+Dégénérescence maculaire (DMLA)
+Glaucome chronique
+Rétinopathie
+Sclérite/épisclérite
+Syndrome de  Marfan
+Trouble de la vision (myopie, presbytie, astigmatisme)
+Uvéite
+Autre maladie des yeux

@@ -1,0 +1,441 @@
+{%extends 'base.html' %}
+{% block head  %} 
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.18962" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.18962" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.18962" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=5dca5ac9a5e86d17235d90c1"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.18962" />
+
+<title>Inscription Patient</title>
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: false;
+    }
+
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif, sans-serif;
+    }
+    .form-header-group {
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif, sans-serif;
+    }
+    .form-label {
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: block;
+    float: none;
+    text-align: left;
+    width: 100%;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px 36px 12px 36px px;
+      margin-bottom: 12px 36px 12px 36px px;
+    }
+  
+    .form-all {
+      max-width: 590px;
+      width: 100%;
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 14pxpx
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 14pxpx
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 14pxpx
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: ;
+      border: 1px solid transparent;
+    }
+  
+    .form-all {
+      color: Black;
+    }
+    .form-header-group .form-header {
+      color: Black;
+    }
+    .form-header-group .form-subHeader {
+      color: Black;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: Black;
+    }
+    .form-sub-label {
+      color: 1a1a25;
+    }
+  
+    .supernova {
+      background-color: undefined;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: undefined;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  body{
+		    min-height: 100vh;
+            display: flex;
+            justify-content: center;
+			background-image:url("{{url_for('static', filename='med.jpg')}}");
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.content{
+			background: grey;
+			width: 50%;
+			padding: 40px;
+			margin: 100px auto;
+			font-family: calibri;
+			border-radius: 10px;
+		}
+
+		p{
+			font-size: 25px;
+			color: black;
+		}
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+{% endblock %}
+
+{% block body  %} 
+<form  action ="/consultation" method="POST"  accept-charset="utf-8" autocomplete="on">
+  <form  action ="/consultation" method="POST"  accept-charset="utf-8" autocomplete="on">
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-large">
+          <div class="header-text httal htvam">
+            <h1 id="header_1" class="form-header" data-component="header">
+              Enregistrement d'un nouveau patient
+            </h1>
+            <div id="subHeader_1" class="form-subHeader">
+              Veuillez remplir les cases suivantes:
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_fullname" id="id_3">
+        <label class="form-label form-label-left" id="label_3" for="first_3"> Nom et Prénom </label>
+        <div id="cid_3" class="form-input">
+          <div data-wrapper-react="true" class="extended">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_3" name="nom" class="form-textbox" size="10" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" />
+              <label class="form-sub-label" for="first_3" id="sublabel_3_first" style="min-height:13px" aria-hidden="false"> Nom </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_3" name="prenom" class="form-textbox" size="15" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" />
+              <label class="form-sub-label" for="last_3" id="sublabel_3_last" style="min-height:13px" aria-hidden="false"> Prénom </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_231">
+        <label class="form-label form-label-left" id="label_231" for="input_231"> Sexe </label>
+        <div id="cid_231" class="form-input">
+          <select class="form-dropdown" id="input_231" name="sexe" style="width:150px" data-component="dropdown" aria-labelledby="label_231">
+            <option value="">  </option>
+            <option value="Male"> Homme </option>
+            <option value="Female"> Femmme </option>
+            <option value="N/A"> N/A </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_118">
+        <label class="form-label form-label-left" id="label_118" for="input_118"> Age </label>
+        <div id="cid_118" class="form-input">
+          <input type="text" id="input_118" name="age" data-type="input-textbox" class="form-textbox validate[Numeric]" size="10" value="" placeholder=" " data-component="textbox" aria-labelledby="label_118" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_118">
+        <label class="form-label form-label-left" id="label_118" for="input_118"> Taille(cm) </label>
+        <div id="cid_118" class="form-input">
+          <input type="text" id="input_118" name="taille" data-type="input-textbox" class="form-textbox validate[Numeric]" size="10" value="" placeholder=" " data-component="textbox" aria-labelledby="label_118" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_119">
+        <label class="form-label form-label-left" id="label_119" for="input_119"> Poids(kg) </label>
+        <div id="cid_119" class="form-input">
+          <input type="text" id="input_119" name="poids" data-type="input-textbox" class="form-textbox validate[Numeric]" size="10" value="" placeholder=" " data-component="textbox" aria-labelledby="label_119" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_101">
+        <div id="cid_101" class="form-input-wide">
+          <div id="text_101" class="form-html" data-component="text">
+            <hr />
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_phone" id="id_5">
+        <label class="form-label form-label-left" id="label_5" for="input_5_area"> Numéro de tel: </label>
+        <div id="cid_5" class="form-input">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="phone">
+              <input type="tel" id="input_5_phone" name="numtel" class="form-textbox" size="16" value="" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" />
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_232">
+        <label class="form-label form-label-left" id="label_232" for="input_232"> Situation Familiale </label>
+        <div id="cid_232" class="form-input">
+          <select class="form-dropdown" id="input_232" name="situationfam" style="width:150px" data-component="dropdown" aria-labelledby="label_232">
+            <option value="">  </option>
+            <option value="Célibataire"> Célibataire </option>
+            <option value="Marié"> Marié </option>
+            <option value="Divorcé"> Divorcé </option>
+            <option value="Veuf"> Veuf </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_address" id="id_4">
+        <label class="form-label form-label-left" id="label_4" for="input_4undefined"> Addresse: </label>
+        <div id="cid_4" class="form-input">
+          <div summary="" class="form-address-table jsTest-addressField">
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                <span class="form-sub-label-container " style="vertical-align:top">
+                  <input type="text" id="input_4_addr_line1" name="q4_address4[addr_line1]" class="form-textbox form-address-line" value="" data-component="address_line_1" aria-labelledby="label_4 sublabel_4_addr_line1" />
+                  <label class="form-sub-label" for="input_4_addr_line1" id="sublabel_4_addr_line1" style="min-height:13px" aria-hidden="false"> Adresse : </label>
+                </span>
+              </span>
+            </div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-country-line jsTest-address-lineField">
+                <span class="form-sub-label-container " style="vertical-align:top">
+                  <select class="form-dropdown form-address-country noTranslate" name="wilaya" id="input_4_country" data-component="country" required="" aria-labelledby="label_4 sublabel_4_country">
+                    <option value=""> Veuillez choisir </option>
+                    <option value="Adrar"> Adrar </option>
+                    <option value="Chlef"> Chlef </option>
+                    <option value="Laghouat"> Laghouat </option>
+                    <option value="Oum El Bouaghi"> Oum El Bouaghi </option>
+                    <option value="Batna"> Batna </option>
+                    <option value="Bejaia"> Bejaia </option>
+                    <option value="Biskra"> Biskra </option>
+                    <option value="Bechar"> Bechar </option>
+                    <option value="Blida"> Blida </option>
+                    <option value="Bouira"> Bouira </option>
+                    <option value="Tamanrasset"> Tamanrasset </option>
+                    <option value="Tebessa"> Tebessa </option>
+                    <option value="Tlemcen"> Tlemcen </option>
+                    <option value="Tiaret"> Tiaret </option>
+                    <option value="Tizi Ouzou"> Tizi Ouzou </option>
+                    <option value="Alger"> Alger </option>
+                    <option value="Djelfa"> Djelfa </option>
+                    <option value="Jijel"> Jijel </option>
+                    <option value="Setif"> Setif </option>
+                    <option value="Saida"> Saida </option>
+                    <option value="Skikda"> Skikda </option>
+                    <option value="Sidi Bel Abbes"> Sidi Bel Abbes </option>
+                    <option value="Annaba"> Annaba </option>
+                    <option value="Guelma"> Guelma </option>
+                    <option value="Constantine"> Constantine </option>
+                    <option value="Medea"> Medea </option>
+                    <option value="Mostaganem"> Mostaganem </option>
+                    <option value="Msila"> Msila </option>
+                    <option value="Mascara"> Mascara </option>
+                    <option value="Ouargla"> Ouargla </option>
+                    <option value="Oran"> Oran </option>
+                    <option value="El Bayadh"> El Bayadh </option>
+                    <option value="Illizi"> Illizi </option>
+                    <option value="Bordj Bou Arreridj"> Bordj Bou Arreridj </option>
+                    <option value="Boumerdes"> Boumerdes </option>
+                    <option value="El Tarf"> El Tarf </option>
+                    <option value="Tindouf"> Tindouf </option>
+                    <option value="Tissemsilt"> Tissemsilt </option>
+                    <option value="El Oued"> El Oued </option>
+                    <option value="Khenchela"> Khenchela </option>
+                    <option value="Souk Ahras"> Souk Ahras </option>
+                    <option value="Tipaza"> Tipaza </option>
+                    <option value="Mila"> Mila </option>
+                    <option value="Ain Defla"> Ain Defla </option>
+                    <option value="Naama"> Naama </option>
+                    <option value="Ain Temouchent"> Ain Temouchent </option>
+                    <option value="Ghardaia"> Ghardaia </option>
+                    <option value="Relizane"> Relizane </option>
+                  </select>
+                  <label class="form-sub-label" for="input_4_country" id="sublabel_4_country" style="min-height:13px" aria-hidden="false"> Wilaya </label>
+                </span>
+              </span>
+              <span class="form-address-line form-address-city-line jsTest-address-lineField">
+                <span class="form-sub-label-container " style="vertical-align:top">
+                  <input type="text" id="input_4_city" name="daira" class="form-textbox form-address-city" value="" data-component="city" aria-labelledby="label_4 sublabel_4_city" />
+                  <label class="form-sub-label" for="input_4_city" id="sublabel_4_city" style="min-height:13px" aria-hidden="false"> Daira </label>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_108">
+        <div id="cid_108" class="form-input-wide">
+          <div id="text_108" class="form-html" data-component="text">
+            <hr />
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_233">
+        <div id="cid_233" class="form-input-wide">
+          <div id="text_233" class="form-html" data-component="text">
+            Concernant votre santé
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_22">
+        <label class="form-label form-label-left" id="label_22" for="input_22"> Symptomes: </label>
+        <div id="cid_22" class="form-input">
+          <textarea id="input_22" class="form-textarea" name="symptomes" placeholder="Fievre,Toux seche,Fatigue...etc" cols="40" rows="6" data-component="textarea" aria-labelledby="label_22"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_22">
+        <label class="form-label form-label-left" id="label_22" for="input_22"> Maladies Chroniques: </label>
+        <div id="cid_22" class="form-input">
+          <textarea id="input_22" class="form-textarea" name="maladies" cols="40" placeholder="Hypertension artérielle,Diabete...etc" rows="6" data-component="textarea" aria-labelledby="label_22"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_phone" id="id_5">
+        <label class="form-label form-label-left" id="label_5" for="input_5_area"> Durée depuis votre dernier voyage(jours): </label>
+        <div id="cid_5" class="form-input">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="phone">
+              <input type="tel" id="input_5_phone" name="dureevoyage" class="form-textbox" size="16" value="" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" />
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_phone" id="id_5">
+        <label class="form-label form-label-left" id="label_5" for="input_5_area"> Durée depuis l'apparition de vos symptomes(jours): </label>
+        <div id="cid_5" class="form-input">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="phone">
+              <input type="tel" id="input_5_phone" name="dureesymp" class="form-textbox" size="16" value="" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" />
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_75">
+        <div id="cid_75" class="form-input-wide">
+          <div id="text_75" class="form-html" data-component="text">
+            <hr />
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_43">
+        <label class="form-label form-label-left" id="label_43" for="input_43"> Suivez-vous un traitement? </label>
+        <div id="cid_43" class="form-input">
+          <div class="form-single-column" role="group" aria-labelledby="label_43" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_43_0" name="traitementoui" value="Yes" />
+              <label id="label_input_43_0" for="input_43_0"> Yes </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_43_1" name="q43_takingAny" value="No" />
+              <label id="label_input_43_1" for="input_43_1"> No </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_22">
+        <label class="form-label form-label-left" id="label_22" for="input_22"> Si oui , veuillez le decrire ci-dessous </label>
+        <div id="cid_22" class="form-input">
+          <textarea id="input_22" class="form-textarea" name="traitement" cols="40" rows="6" data-component="textarea" aria-labelledby="label_22"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="margin-left:156px" data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+            <button id="input_2" type="submit"  class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+    </form>
+  </form>
+        {% endblock %}

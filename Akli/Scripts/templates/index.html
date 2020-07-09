@@ -1,0 +1,66 @@
+{%extends 'base.html' %}
+
+{% block head  %} 
+<title>Projet WS</title>
+<style>
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:  lightskyblue;
+    }
+    div.jumbotron{
+        background-color:  lightskyblue;
+
+    }
+
+    .topnav {
+        display: flex;
+        background-color: rgb(13, 100, 172);
+        overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+</style>
+{% endblock %}
+
+{% block body  %} 
+
+<div class="container">
+    <div class="topnav">
+        <a class="active" href="">Acceuil</a>
+        <a href="#news">Statistiques</a>
+        <a href="#contact">Rapport pdf</a>
+        <a href="#about">A propos de nous</a>
+      </div>
+    <div class="jumbotron text-white text-center">
+        <h1 class="display-4">L’open data sur les données d’évolution de la maladie du covid-19</h1>
+        <h2 class="lead">Voici notre projet dans le cadre de notre contriubation dans le monde de la mèdecine en utilisant le web 3.0</h2>
+        <hr class="my-4">
+        <h2>Etes-vous médécin ou bien patient ?</h2>
+        <a class="btn btn-primary btn-lg" href="/med" role="button">Je suis médecin</a>
+        <a class="btn btn-primary btn-lg ml-5" href="/consultation" role="button">Je suis patient</a>
+  </div>
+</div>
+{% endblock %}
